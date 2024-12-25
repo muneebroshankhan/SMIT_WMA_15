@@ -1,0 +1,30 @@
+.heading-01{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 39px;
+}
+
+
+.TimeTable table{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.TimeTable table td{
+    padding: 5px;
+}
+
+ .one{
+    border: none;
+}
+
+.two{
+    border: rgb(246, 243, 243);
+    background-color: rgb(150, 150, 150);
+}
+
+.form{
+    font-weight: bold;
+}
+
