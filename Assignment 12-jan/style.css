@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #B9FF66;  */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ nav{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.positivus{
+    /* font-size: 33px;
+    font-weight: bolder;
+    margin-top: 5px;
+    text-shadow: #85ff66 1px 10px; */
+    height: 50px;
+    width: 40px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.quote-btn{
+    padding: 23px 35px;
+    background: transparent;
+    cursor: pointer;
+    border: solid 2px black;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.quote-btn:hover{
+   background-color: black;
+   color: beige;
+}
+
+.sec-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+.text-content{
+    width: 35%;
+    height: 400px;
+    /* align-self: center; */
+}
+
+.text-content h1{
+    font-size: 65px;
+}
+
+.text-content p{
+    font-size: 18px;
+    margin: 50px 0px 20px 0px;
+    color: black;
+    line-height: 35px;
+}
+
+.consult-btn{
+    padding: 23px 35px;
+    background-color: black;
+    color: beige;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.consult-btn:hover{
+    background-color: beige;
+    color: black;
+    border: solid black 1px;
+ }
+
+.bodyimage{
+    width: 33%;
+    height: 500px;
+    display: flex;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 80px 20px;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 30px; */
+    /* align-items: center; */
+}
+
+.partners img{
+    gap: 30px;
+    height: 100px;
+    width: 100px;
+}
+
